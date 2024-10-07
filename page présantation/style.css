@@ -1,0 +1,79 @@
+body {
+	background-color: rgba(66, 66, 66, 1);
+	margin: 20px 35px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+.page {
+	background-color: rgba(47, 47, 47, 1);
+	border-radius: 10px;
+	width: 50%;
+}
+img:nth-child(1) {
+	width: 100%;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+.P1 {
+	display: flex;
+	margin-bottom: 21px;
+}
+.profil {
+	margin: 2%;
+	display: flex;
+	flex-direction: column;
+}
+.profil > img {
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+}
+.sexe {
+	display: flex;
+	justify-content: center;
+	color: white;
+	font-size: 168%;
+	margin-top: 2%;
+	gap: 8%;
+}
+hr {
+	height: 11%;
+	background-color: white;
+	border-radius: 10px;
+	width: 95%;
+	margin: 2%;
+	padding: 2px;
+}
+button {
+	display: flex;
+	text-align: center;
+	background-color: rgba(61, 169, 46, 1);
+	border-radius: 10px;
+	width: 37%;
+	justify-content: center;
+	margin: auto;
+	color: white;
+	box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.25);
+}
+input {
+	background-color: rgba(62, 86, 98, 1);
+	border-radius: 10px;
+	width: 91%;
+	height: 11%;
+	margin: -5px;
+	color: white;
+}
+.presentation {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 4% 0;
+}
+.presentation > h3 {
+	color: white;
+	margin-bottom: 0px;
+}
+.footer {
+	padding: 12px;
+}
